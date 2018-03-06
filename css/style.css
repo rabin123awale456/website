@@ -1,0 +1,341 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+ul li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.clear{
+	clear: both;
+}
+body{
+	padding-top: 70px;
+}
+/* header start*/
+header{
+	background: #fed136;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	height: 70px;
+	border-bottom: 1px solid black;
+}
+.logo{
+	float: left;
+	width: 400px;
+	/*margin-top:20px;*/
+	color: black; 
+}
+.logo a{
+	color: black;
+}
+.menu{
+	float: right;
+	width: 700px;
+	margin-top: 10px;
+	z-index: 88888 !important;
+}
+.menu ul{
+		float: right;
+	}
+.menu ul li{
+		float: left;
+		}
+.menu ul li a{
+				text-decoration: none;
+				color: white;
+				text-transform: uppercase;
+				font-family:  Helvetica, Arial, sans-serif;
+				font-size: 18px;
+				font-weight: 500;
+				letter-spacing: 1px;
+				cursor: pointer;
+				display: block;
+				line-height:40px; 
+				border-radius: 5px;
+				padding:6px 10px 6px 10px;
+				background: black;
+				margin-right: 8px;
+
+}
+.menu ul li a:hover{
+	background: white;
+	color: black;
+}
+/* header end*/
+
+
+
+
+/*content start*/
+.content{
+	padding-top: 70px;
+}
+.banner_text{
+	font-size: 32px;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin-top: 75px;
+}
+.banner_text1{
+	font-size: 40px;
+	margin-top:55px; 
+	font-family:Arial;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+.iphone6{
+	margin-top: 55px;
+	float: left;
+	margin-left: 140px;
+}
+.iphone_details{
+	float: left;
+	margin-top: 105px;
+}
+.iphone_details h1{
+	font-size: 50px;
+	margin-bottom: 20px;
+}
+.iphone_details button{
+	width: 150px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 20px;
+	height: 45px;
+	background: #fed136;
+}
+.iphone_details button:hover{
+	background: black;
+	color: white;
+}
+.platforms{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+/* new arrival start*/
+.new_arrival{
+	background: #fed136;
+	/*height: 200px;*/
+	padding-top: 35px;
+}
+.new_arrival h1,h2,h3{
+	text-align: center;
+	padding-top: 30px; 
+}
+/* new arrival end*/
+
+.new-arrival .col-md-6 {
+	text-align: center;
+	margin-bottom: 40px;
+	z-index: -20;
+}
+
+/*.mobile{
+	height: 1400px;
+	margin-top: 40px;
+}
+.mobile_list ul li{
+	float: left;
+	width: 50%;
+	margin-bottom:30px;:
+}*/
+/*.image{
+	float: left;
+	margin-right: 30px;
+}*/
+/*.mobile_list p{
+	font-size: 22px;
+}*/
+
+.discription button{
+	width: 150px;
+	font-size: 18px;
+	border-radius: 5px;
+	margin-top: 20px;
+	height: 45px;
+	background: #fed136;
+
+}
+.discription button:hover{
+	background: black;
+	color: white;
+}
+.mobile_name{
+	color: red;
+}
+.price{
+	color: red;
+	text-decoration: underline;
+}
+.contact_us_for a{
+	float: right;
+	text-decoration: underline;
+	font-size: 18px;
+	margin-top: 20px;
+	color: red; 
+	margin-right: 40px;
+}
+
+/*content end*/
+
+
+
+
+/* about us start */
+
+.about{
+	background: #fed136;
+	margin-top: 30px;
+	padding: 50px 0px 0px 70px !important;
+}
+.about_head{
+	text-align: center;
+	margin-bottom:10px;
+}	
+.about_description{
+	text-align: center;
+	
+	font-size: 22px;
+}
+.about_description a{
+	color: red;
+	text-decoration: underline;
+}
+/* about us end */
+
+
+
+/* contact start */
+.feedback{
+	background: black;
+	height: 500px;
+	float: left;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	
+}
+.contact_us{
+	font-size: 38px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: white; 
+	text-align: center;
+}
+/*form{
+	width: 100%;
+}
+input{
+	width: 50%;
+	height: 60px;
+	margin-bottom:25px;
+	text-transform: uppercase;
+	border-radius: 5px;
+	/*padding-left:10px;*/
+	font-weight: bold;  
+}*/
+.button{
+	width: 102%;
+	background: #fed136;
+	cursor: pointer;
+}
+.button:hover{
+	background: black;
+	color: white; 
+}
+/*textarea{
+	float: right;
+	width: 45%;
+	height: 300px;
+	border-radius: 5px;
+}*/
+/* contact end */
+
+
+
+
+/* social media start */
+/*.social_media{
+	height: 100px;
+	background: #fff;
+	margin-top: 20px;
+	width: 500px;
+	float: right;
+	margin-bottom: 20px;
+}*/
+.location{
+	width: 20%;
+	float: left;
+	/*padding-left: 13%;
+*/	}
+
+/*.social_sites{
+	width: 25%;
+	text-align: center;
+	margin-left:8%; 
+	float: left;
+
+}
+.social_sites ul{
+	float: left;
+}
+.social_sites ul li{
+	float: left;
+	margin-left: 5px;
+	cursor: pointer;
+}*/
+.contact_details{
+	
+	float: left;
+	padding-left: 9%;
+}
+/*.details{
+	margin-left: -170px;
+}*/
+/*.details1{
+	margin-left: -190px;
+}*/
+.icon{
+	margin-top: 9px;
+
+}
+.phone_email{
+	color: red;
+	text-decoration: underline;
+}
+.copyright{
+	text-align: center;
+	margin:20px 0px;
+	font-size: 
+}
+
+/** social media end */
+
+
+
+
+
+
+
+footer{
+	padding-top: 40px;
+}
+
+.copyright{
+	background: black;
+	height: 60px;
+	color: white;
+}
+
+.login_process{
+ margin-top: 50px;
+}
